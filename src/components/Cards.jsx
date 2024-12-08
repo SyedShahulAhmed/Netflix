@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Searches } from "./index.js"; // Ensure the path is correct
+import { Link } from "react-router-dom";
 
 const Cards = ({title,Cat}) => {
 
@@ -27,6 +28,7 @@ const Cards = ({title,Cat}) => {
       </header>
       <div className="flex  gap-5 overflow-auto">
         {Movies.map((item) => (
+          <Link to={`/player/${item.id}`}>
           <div key={item.id} className="min-w-[300px] mb-7 ml-5 hover:scale-105 transition-all duration-300">
             <img
               src={`https://image.tmdb.org/t/p/w500${item.backdrop_path}`}
@@ -35,6 +37,7 @@ const Cards = ({title,Cat}) => {
             />
             <h1 className="text-white font-semibold mt-2">{item.original_title}</h1>
           </div>
+          </Link>
         ))}
       </div>
     </div>
