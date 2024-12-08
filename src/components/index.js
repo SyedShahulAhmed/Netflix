@@ -1,4 +1,12 @@
+//Assests
+
 import logo from '../assets/logo.png';
+import search from '../assets/Navbar/search.png'
+import Bell from '../assets/Navbar/Bell.png'
+import Profile from '../assets/Navbar/Profile.png'
+import Darrow from '../assets/Navbar/Darrow.png'
+import HeroBanner from '../assets/HeroImages/HeroBanner.webp'
+import Hero from '../assets/HeroImages/Hero.webp'
 
 //Trending Images
 
@@ -34,10 +42,20 @@ import r3 from '../assets/Reasons/img3.png'
 import r4 from '../assets/Reasons/img4.png'
 
 
-//Assests
+//Top Searches Images
+
+import img21 from '../assets/TopSearchImgs/img1.webp'
+import img22 from '../assets/TopSearchImgs/img2.webp'
+import img23 from '../assets/TopSearchImgs/img3.webp'
+import img24 from '../assets/TopSearchImgs/img4.webp'
+import img25 from '../assets/TopSearchImgs/img5.webp'
+import img26 from '../assets/TopSearchImgs/img6.webp'
+import img27 from '../assets/TopSearchImgs/img7.webp'
+import img28 from '../assets/TopSearchImgs/img8.webp'
+
 
 export const images = {
-    logo
+    logo,search,Bell,Profile,Darrow,Hero,HeroBanner
 }
 
 export const Trending = [
@@ -103,5 +121,40 @@ export const questions = [
         id:6,
         que:"Is Netflix good for kids?",
         ans:"The Netflix Kids experience is included in your membership to give parents control while kids enjoy family-friendly TV shows and films in their own space.Kids profiles come with PIN-protected parental controls that let you restrict the maturity rating of content kids can watch and block specific titles you don’t want kids to see.Create or restart your membership"
+    }
+]
+
+export const Searches = [
+    {
+        id:1,
+        img:img21
+    },
+    {
+        id:2,
+        img:img22
+    },
+    {
+        id:3,
+        img:img23
+    },
+    {
+        id:4,
+        img:img24
+    },
+    {
+        id:5,
+        img:img25
+    },
+    {
+        id:6,
+        img:img26
+    },
+    {
+        id:7,
+        img:img27
+    },
+    {
+        id:8,
+        img:img28
     }
 ]
