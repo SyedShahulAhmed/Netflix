@@ -5,7 +5,7 @@ const LoginContainer = () => {
     const [Sign,setSign] = useState("Sign In")
 
   return (
-    <div className='w-[450px] bg-black text-white p-10 bg-opacity-60'>
+    <div className='w-[350px] sm:w-[450px] bg-black text-white p-10 bg-opacity-60'>
         <h1 className='text-3xl font-semibold mb-10'>{Sign}</h1>
         <form className='flex justify-center flex-col gap-5'>
             {Sign === "Sign Up" ? <input type="text" name="" id="" placeholder='Enter name' className='py-4 px-6 outline-none border-2  bg-transparent border-gray-400 placeholder:text-gray-300'/>:""}
@@ -21,7 +21,7 @@ const LoginContainer = () => {
             </div>
         </form>
         <div className='mt-[40px] text-[#737373]'>
-            {Sign === "Sign In" ? <p>New to Netflix? <span className='ml-2 text-white font-semibold cursor-pointer' onClick={() => {setSign("Sign Up")}}>Sign Up Now</span></p> : <p>Already have account? <span className='ml-2 text-white font-semibold cursor-pointer' onClick={() => {setSign("Sign In")}}>Sign In Now</span></p>}
+            {Sign === "Sign In" ? <p>New to Netflix? <span className='ml-2 text-white font-semibold cursor-pointer' onClick={() => {setSign("Sign Up")}}>Sign Up Now</span></p> : <p>Already have account? <span className='md:ml-2 text-white font-semibold cursor-pointer' onClick={() => {setSign("Sign In")}}>Sign In Now</span></p>}
         </div>
     </div>
   )

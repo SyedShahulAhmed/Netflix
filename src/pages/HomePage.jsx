@@ -8,9 +8,10 @@ const HomePage = () => {
     <div className='bg-black'>
         <NavBar/>
         <Hero/>
-        <Cards/>
-        <Cards/>
-        <Cards/>
+        <Cards title={"Now Playing"} Cat={'now_playing'}/>
+        <Cards title={"Top Rated"} Cat={'top_rated'}/>
+        <Cards title={"Upcoming"} Cat={'upcoming'}/>
+        <Cards title={"Popular"} Cat={"popular"}/>
         <Footer/>
     </div>
   )
