@@ -3,7 +3,7 @@ import { Searches } from "./index.js"; // Ensure the path is correct
 
 const Cards = () => {
   return (
-    <div className="max-w-[1340px] w-full mx-auto mb-7">
+    <div className="max-w-[1340px] w-full mx-auto ">
       <header>
         <h1 className="text-2xl font-bold mb-4 text-white my-5">Top Searches</h1>
       </header>
