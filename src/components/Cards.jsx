@@ -27,9 +27,9 @@ const Cards = ({title,Cat}) => {
         <h1 className="text-2xl font-bold mb-4 text-white my-5 ml-5">{title}</h1>
       </header>
       <div className="flex  gap-5 overflow-auto">
-        {Movies.map((item) => (
+        {Movies.map((item,key) => (
           <Link to={`/player/${item.id}`}>
-          <div key={item.id} className="min-w-[300px] mb-7 ml-5 hover:scale-105 transition-all duration-300">
+          <div key={key} className="min-w-[300px] mb-7 ml-5 hover:scale-105 transition-all duration-300">
             <img
               src={`https://image.tmdb.org/t/p/w500${item.backdrop_path}`}
               alt={item.name || "Search item"} 

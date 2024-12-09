@@ -1,5 +1,6 @@
 import React from "react";
 import { RiArrowDropRightLine } from "react-icons/ri";
+import { Link } from "react-router-dom";
 
 const HomeHero = () => {
   return (
@@ -29,14 +30,14 @@ const HomeHero = () => {
                 outline-none
                "
           />
-          <button
+         <Link to={'/login'}
             className="py-1.5 px-3 bg-red-600 flex justify-center
                 md:text-xl 
                 items-center rounded-full
                 font-bold text-white md:w-[300px]"
           >
-            Get Started <RiArrowDropRightLine size={50} />
-          </button>
+          Get Started <RiArrowDropRightLine size={50} />
+         </Link>
         </div>
       </div>
     </div>

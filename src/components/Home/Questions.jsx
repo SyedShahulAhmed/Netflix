@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { questions } from '../index.js';
 import { IoAddOutline, IoRemoveOutline } from 'react-icons/io5';
+import { Link } from 'react-router-dom';
 
 const Questions = () => {
   const [show, setShow] = useState(null); // Tracks the currently visible answer
@@ -37,7 +38,7 @@ const Questions = () => {
         </div>
       ))}
       <div className='flex justify-center flex-col items-center mt-7'>
-        <button className='py-4 px-8 bg-red-600 rounded-full font-bold text-lg text-white'>Get Started</button>
+        <Link to={'/login'}><button className='py-4 px-8 bg-red-600 rounded-full font-bold text-lg text-white'>Get Started</button></Link>
         <p className='text-white mb-7 mt-2 font-semibold'>Create or restart your membership</p>
       </div>
     </div>
