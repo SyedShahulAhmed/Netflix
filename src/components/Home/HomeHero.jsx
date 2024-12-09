@@ -21,7 +21,7 @@ const HomeHero = () => {
           <input
             type="text"
             placeholder="Enter your email"
-            className="py-5  px-6 md:font-lg placeholder:tex-lg md:placeholder:text-xl mx-auto rounded-full
+            className="py-5  px-6 md:font-lg placeholder:tex-lg md:placeholder:text-xl mx-12 md:mx-auto rounded-full
                 bg-gray-800
                 bg-opacity-80
                 text-white
