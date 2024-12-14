@@ -62,9 +62,4 @@ Follow these steps to get the project up and running on your local machine:
 
 5. Open the app in your browser at [http://localhost:3000](http://localhost:3000). 🌟  
 
-## 🌟 Future Improvements  
-
-- 📱 Make the app responsive for mobile devices.  
-- 🎥 Add dynamic movie content using APIs.  
-- 🛠️ Implement advanced features like video playback and user profiles.  
 
