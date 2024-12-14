@@ -2,7 +2,7 @@
 
 A small **Netflix UI clone** built using **React.js**, **Tailwind CSS**, and **Firebase** for a seamless login and signup experience. 🚀  
 
-🔗 **Live Preview**: [Click here to see the app in action!](#)  
+🔗 **Live Preview**: [Click here to see the app in action!](https://netflix-gamma-peach-44.vercel.app/)  
 
 ## ✨ Features  
 
